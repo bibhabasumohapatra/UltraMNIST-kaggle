@@ -7,4 +7,4 @@ def setup_model(name):
     else:
         raise RuntimeError(f"Unknown model name {name}")
 
-    return fn(num_classes=10)
+    return fn(num_classes=1)
